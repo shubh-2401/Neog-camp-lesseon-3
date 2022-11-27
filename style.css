@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/** For Container **/
+.container
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centre
+{
+    max-width: 600px;
+    margin: auto;
+}
+/* .container-fluid
+{
+    padding-left: 1rem;
+    padding-right: 1 rem;
+} */
