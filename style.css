@@ -34,14 +34,14 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.7rem;
     color: white;
-    margin-bottom: 0.8rem;
+   
 }
 .secondary-link
 {   
     border: 1px solid var(--primary-color);
     border-radius: 0.7rem;
     color: var(--primary-color);
-    margin-bottom: 0.8rem;
+   
 }
 
 /* List */
@@ -54,4 +54,31 @@ hr{
 {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/* Nav */
+
+.navigation
+{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link{
+    color: white;
+    
+}
+.nav-dev
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .non-bullet{
+    text-align: right;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
 }
