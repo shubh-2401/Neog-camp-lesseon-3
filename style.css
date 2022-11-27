@@ -98,4 +98,19 @@ display: block;
 
 .hero-heading{
 color: var(--dark-gray);
+text-align: center;
+}
+
+/* section */
+
+.sec{
+    padding: 2rem;
+}
+
+.sec h2{
+    text-align: center;
+}
+
+.ow{
+    background-color: #f3f4f6;
 }
