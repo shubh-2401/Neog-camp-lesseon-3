@@ -3,6 +3,7 @@
 :root
 {
     --primary-color:#594FFD ;
+    --dark-gray:#6B7280;
 }
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -81,4 +82,20 @@ hr{
 .navigation .link-active
 {
     font-weight: bold;
+}
+
+/* header */
+
+.hero{
+padding: 2rem;
+}
+
+.hero-img{
+max-width: 350px;
+margin: auto;
+display: block;
+}
+
+.hero-heading{
+color: var(--dark-gray);
 }
