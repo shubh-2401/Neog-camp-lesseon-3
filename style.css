@@ -20,6 +20,9 @@ body {
     max-width: 600px;
     margin: auto;
 }
+hr{
+    margin: 2rem 0rem;
+}
 
 /**Links**/
 .link {
@@ -39,4 +42,16 @@ body {
     border-radius: 0.7rem;
     color: var(--primary-color);
     margin-bottom: 0.8rem;
+}
+
+/* List */
+
+.non-bullet
+{
+    list-style: none;
+}
+.list-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
