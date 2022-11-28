@@ -100,6 +100,10 @@ display: block;
 .hero-heading{
 color: var(--dark-gray);
 text-align: center;
+
+}
+.span{
+    color: var(--primary-color);
 }
 
 /* section */
@@ -123,6 +127,11 @@ text-align: center;
     text-align: center;
     padding: 2rem 1rem;
     border-top-right-radius: 1rem;
+}
+
+.footer-head{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
